@@ -8,6 +8,23 @@ This project demonstrates Python scripting, REST API integration, AWS S3 storage
 
 The application retrieves sample posts from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/), saves the returned data locally, and uploads the generated JSON file to an Amazon S3 bucket.
 
+## Screenshots & Diagrams
+
+### Architecture
+![Python API to S3 architecture](screenshots/python-api-s3-architecture.png.drawio.png)
+
+### GitHub Actions CI
+![GitHub Actions CI](screenshots/github-actions-ci.png)
+
+### Successful Workflow Run
+![Successful workflow](screenshots/successful-workflow.png)
+
+### Automated Tests
+![Automated tests](screenshots/automated-tests.png)
+
+### S3 Objects
+![S3 objects](screenshots/s3-objects.png)
+
 ## Architecture
 
 1. **API Integration:** Fetches posts from JSONPlaceholder using Python Requests.
